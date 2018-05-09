@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   groceries.each do |key|
-    key.values
+    key
   end
 end
